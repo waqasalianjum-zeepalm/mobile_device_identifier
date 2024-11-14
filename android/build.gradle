@@ -1,4 +1,4 @@
-group 'com.alfanthariq.mobile_device_identifier'
+group 'com.example.mobile_device_identifier'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -25,9 +25,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 32
+    compileSdkVersion 34
     namespace 'com.alfanthariq.mobile_device_identifier'
-
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
